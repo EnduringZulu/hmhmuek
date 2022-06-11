@@ -136,7 +136,7 @@ header {
   .flex-container {
     flex: 100%;
     flex-direction: column;
-    flex-flow: row-reverse wrap-reverse;
+    flex-flow: column-reverse wrap-reverse;
   }
 }
 
@@ -184,4 +184,46 @@ h3{
 
 h1{
   font-size: 150%;
+}
+
+.center-2{
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+  width: 70%;
+  border-radius: 50%;
+}
+
+.flex-item-center{
+  padding: 10px;
+  flex: 100/3%;
+  color: aliceblue;
+  font-size: 120%;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  text-align: left;
+}
+
+flex-item-left-2 {
+    padding: 10px;
+    flex: 100/3%;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    text-align: left;
+}
+
+.flex-item-right-2 {
+    padding: 10px;
+    flex: 100/3%;
+    color: aliceblue;
+    font-size: 120%;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    text-align: left;
 }
