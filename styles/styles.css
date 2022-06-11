@@ -89,7 +89,7 @@ body{
     display: block;
     margin-left:auto;
     margin-right:auto;
-    width: 80%;
+    width: 40%;
     border-radius: 50%;
 }
 
@@ -175,15 +175,23 @@ header {
 }
 
 h6{
-  font-size: 60%;
+  font-size: 40%;
+  font-color: rgb(255,255,255);
 }
 
 h3{
   font-size: 70%;
+  font-color: rgb(255,255,255);
+}
+
+h4{
+  font-size: 40%;
+  font-color: rgb(255,255,255);
 }
 
 h1{
   font-size: 150%;
+  font-color: rgb(255,255,255);
 }
 
 .center-2{
@@ -203,7 +211,7 @@ h1{
   margin-right: auto;
   margin-bottom: auto;
   margin-left: auto;
-  text-align: left;
+  text-align: center;
 }
 
 flex-item-left-2 {
@@ -213,7 +221,7 @@ flex-item-left-2 {
     margin-right: auto;
     margin-bottom: auto;
     margin-left: auto;
-    text-align: left;
+    text-align: center;
 }
 
 .flex-item-right-2 {
@@ -225,5 +233,5 @@ flex-item-left-2 {
     margin-right: auto;
     margin-bottom: auto;
     margin-left: auto;
-    text-align: left;
+    text-align: center;
 }
