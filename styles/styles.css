@@ -6,7 +6,7 @@
 }
 /* Background color & fonts */
 body{
-    background-color: rgb(120, 0, 120);
+    background-color: rgba(97,35,120,255);
     font-family: 'Lato', sans-serif;
 }
 
@@ -24,9 +24,10 @@ body{
 /* From W3Schools.com*/
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: rgb(120, 0, 120);
+    background-color: rgba(97,35,120,255);
     overflow: hidden;
     border-style: solid;
+    border-width: thin;
     border-color: rgb(255,255,255)
 }
   
@@ -93,6 +94,13 @@ body{
     border-radius: 50%;
 }
 
+.center-box{
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 40%;
+}
+
 /* header Navbar */
 header {
     position: fixed;
@@ -111,6 +119,16 @@ header {
 }
   
 .flex-item-left {
+    padding: 10px;
+    flex: 50%;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: 12%;
+    margin-left: 5%;
+    text-align: left;
+}
+
+.flex-item-left-1 {
     padding: 10px;
     flex: 50%;
     margin-top: auto;
@@ -143,8 +161,8 @@ header {
 /* Download Button color */
 .Download-button{
     background-color: rgb(255, 255, 255); 
-    color: rgb(120, 0, 120); 
-    padding: 16px 32px;
+    color: rgba(97,35,120,255); 
+    padding: 25px 85px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -163,35 +181,17 @@ header {
 
 .topic{
   text-align: center;
+  color: rgb(255, 255, 255);
 }
 .under-topic{
   text-align: center;
+  color: rgb(255, 255, 255);
 }
 
 .download_button{
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-h6{
-  font-size: 40%;
-  font-color: rgb(255,255,255);
-}
-
-h3{
-  font-size: 70%;
-  font-color: rgb(255,255,255);
-}
-
-h4{
-  font-size: 40%;
-  font-color: rgb(255,255,255);
-}
-
-h1{
-  font-size: 150%;
-  font-color: rgb(255,255,255);
 }
 
 .center-2{
@@ -215,8 +215,19 @@ h1{
 }
 
 flex-item-left-2 {
+  padding: 10px;
+  flex: 100/3%;
+  margin-top: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.flex-item-right-2 {
     padding: 10px;
     flex: 100/3%;
+    color: aliceblue;
     margin-top: auto;
     margin-right: auto;
     margin-bottom: auto;
@@ -224,14 +235,74 @@ flex-item-left-2 {
     text-align: center;
 }
 
-.flex-item-right-2 {
-    padding: 10px;
-    flex: 100/3%;
-    color: aliceblue;
-    font-size: 120%;
-    margin-top: auto;
-    margin-right: auto;
-    margin-bottom: auto;
-    margin-left: auto;
-    text-align: center;
+.flex-container-2 {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+}
+
+@media (max-width: 800px) {
+  .flex-container-2 {
+    flex: 100%;
+    flex-direction: column;
+  }
+}
+
+.p-small{
+  line-height: 1.2;
+  font-size: 70%;
+  color: rgb(255,255,255);
+  font-weight: normal;
+}
+
+.p-small-2{
+  line-height: 1.2;
+  font-size: 60%;
+  color: rgb(255,255,255);
+  font-weight: normal;
+}
+
+.p-small-2-custom{
+  line-height: 1.2;
+  font-size: 60%;
+  color: rgb(255,255,255);
+  font-weight: normal;
+  text-align: center;
+}
+
+.p-medium{
+  line-height: 1;
+  font-size: 150%;
+  color: rgb(255,255,255);
+  font-weight: normal;
+}
+
+.p-medium-2{
+  line-height: 1;
+  font-size: 250%;
+  color: rgb(255,255,255);
+  font-weight: normal;
+}
+
+.p-medium-3{
+  line-height: 1;
+  font-size: 120%;
+  color: rgb(255,255,255);
+  font-weight: normal;
+  text-allign: center;
+}
+
+.p-medium-3-custom{
+  line-height: 1;
+  font-size: 120%;
+  color: rgb(255,255,255);
+  font-weight: normal;
+  text-align: center;
+}
+
+.p-big{
+  font-size: 300%;
+  color: rgb(255,255,255);
+  font-weight: normal;
+  line-height: 1;
 }

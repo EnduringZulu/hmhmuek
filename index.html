@@ -22,6 +22,7 @@
   <header id="header">
     <!---Top Navbar--->
     <div class="topnav" id="myTopnav">
+      <a></a>
       <a href="#ticket">จองคิว</a>
       <a href="#scription">บทความ</a>
       <a href="#about">เกี่ยวกับหมอหมึก</a>
@@ -32,32 +33,33 @@
   <br><br>
   </header>
   <div class="topic">  
-    <br><br><br>
-    <h1>หมอหมึก</h1>
+    <br><br><br><br>
+    <p class="p-big">หมอหมึก</p>
   </div>
   <div class="under-topic">
-    <br><h2>ผู้มีประสบการณ์พยากรณ์กว่า 10 ปี พร้อมคำพยากรณ์ที่แม่นยำ</h2>
+    <br><p class="p-medium">ผู้มีประสบการณ์พยากรณ์กว่า 10 ปี พร้อมคำพยากรณ์ที่แม่นยำ</p>
   </div>
-  <br>
+  <br><br><br>
   <!---Download Button--->
   <div class="download_button">
     <button class="Download-button">
-      <a href="#" style="color: rgb(120, 0, 120); text-decoration: none;">จองคิว</a>
+      <a href="#" style="color: rgb(120, 0, 120); text-decoration: none; font-size: 200%;">จองคิว</a>
     </button>
   </div>
+  <br><br><br>
   <!---flexbox--->
   <div class="flex-container" id="home">
     
     <div class="flex-item-left">
-      <h3>ประวัติหมอหมึก</h3>
-      <h6>หมอหมึกเป็นนักพยากรณ์ที่ชำนาญด้านการทำนายดวงด้วยลูกแก้วพยากรณ์ ไพ่ทาโร่ และการดูลายมือ</h6><br>
-      <h6>ด้วยความสามารถที่หลากหลาย</h6><br>
-      <h6>ทำให้หมอหมีสามารถเลือกวิธีการทำนายที่เหมาะกับแต่ละบุคคลเพื่อให้ได้ผลลัพธ์แม่นยำที่สุด</h6>
+      <p class="p-medium-3">ประวัติหมอหมึก</p>
+      <p class="p-small"><br>หมอหมึกเป็นนักพยากรณ์ที่ชำนาญด้านการทำนายดวงด้วยลูกแก้วพยากรณ์ ไพ่ทาโร่ และการดูลายมือ<br></p>
+      <p class="p-small">ด้วยความสามารถที่หลากหลาย<br></p>
+      <p class="p-small">ทำให้หมอหมีสามารถเลือกวิธีการทำนายที่เหมาะกับแต่ละบุคคลเพื่อให้ได้ผลลัพธ์แม่นยำที่สุด</p>
     </div>
       
     <div class="flex-item-right">
       <div class="profile-image">
-        <img src="./img/no-image-available-icon-flat-vector-no-image-available.jpg" class="center">
+        <img src="./img/no-image-available-icon-flat-vector-no-image-available.jpg" class="center-box">
       </div>
     </div>
     
@@ -65,34 +67,56 @@
 
   <div class="topic">  
     <br><br>
-    <h1>รีวิวจากลูกค้า</h1>
+    <p class="p-medium-2">รีวิวจากลูกค้า<br></p>
   </div>
-  <div class="flex-container" id="home">
-    <div class="flex-item-left">
+  <br>
+  <div class="flex-container-2" id="home">
+    
+    <div class="flex-item-left-2">
       <div class="customer">
         <img src="./img/no-image-available-icon-flat-vector-no-image-available.jpg" class="center-2">
-        <h4>แมทธิว นักธุรกิจ</h4>
-        <h6>หมอหมึกช่วยผมเรื่องฤกษ์ยามในการเจรจาธุรกิจได้มากเลยตอนนี้ขายดีเทน้ำเทท่าเลยครับ</h6>
       </div>
+      <p class="p-medium-3-custom"><br>แมทธิว นักธุรกิจ</p>
+      <p class="p-small-2-custom"><br>หมอหมึกช่วยผมเรื่องฤกษ์ยามในการเจรจาธุรกิจได้มากเลยตอนนี้ขายดีเทน้ำเทท่าเลยครับ</p>
     </div>
     
     <div class="flex-item-center">
       <div class="customer">
         <img src="./img/no-image-available-icon-flat-vector-no-image-available.jpg" class="center-2">
       </div>
-      <h4>แจ็ค นักแสดง</h4>
-      <h6>ต้องขอบคุณหมอหมึกในการช่วยให้ความสัมพันธ์ราบรื่นด้วยนะคะ<br>ทำนายอะไรไว้ก็แม่นทุกอย่างเลยค่ะ</h6>
+      <p class="p-medium-3"><br>แจ็ค นักแสดง</p>
+      <p class="p-small-2"><br>ต้องขอบคุณหมอหมึกในการช่วยให้ความสัมพันธ์ราบรื่นด้วยนะคะ<br>ทำนายอะไรไว้ก็แม่นทุกอย่างเลยค่ะ</p>
     </div>
     
-    <div class="flex-item-right">
+    <div class="flex-item-right-2">
       <div class="customer">
         <img src="./img/no-image-available-icon-flat-vector-no-image-available.jpg" class="center-2">
       </div>
-      <h4>น้ำใส นักศึกษา</h4>
-      <h6>ที่หมอหมึกบอกมานะคะ<br>เกิดเกือบหมดเลยค่ะ<br>ถ้าไม่ได้หมอหมึกช่วยไว้ ชีวิตคงแย่เลยค่ะ<br>ดีนะที่ป้องกันเรื่องร้าย ๆ ทันเวลา</h6>
+      <p class="p-medium-3"><br>น้ำใส นักศึกษา</p>
+      <p class="p-small-2"><br>ที่หมอหมึกบอกมานะคะ<br>เกิดเกือบหมดเลยค่ะ<br>ถ้าไม่ได้หมอหมึกช่วยไว้ ชีวิตคงแย่เลยค่ะ<br>ดีนะที่ป้องกันเรื่องร้าย ๆ ทันเวลา</p>
     </div>
     
   </div>
-
+<br><br><br>
+  <div class="flex-container" id="home">
+    <div class="flex-item-left-1">
+      <img src="./img/map.png" class="center-box">
+    </div>
+    
+    <div class="flex-item-right">
+      <p class="p-medium-3">ทํานายชะตากับหมอหมึก</p>
+      <p class="p-small-2"><br>สามารถจองคิวได้ในเว็บหรือ<br>
+อีเมล: octopus_fortune@teller.com<br>
+โทรศัพท์: 099 XXXX XXX<br>
+และมาที่สํานักที่<br>
+ชั้น 12 อาคาร JWC ถนนโปรแกรมมิ่ง แขวงเว็บ<br>
+เขตอินเตอร์เน็ต กรุงเทพ 99999<br>
+ตามวันเวลาที่นัดไว้<br>
+จํากัดที่ 10 คิวต่อหนึ่งวัน เปิดทําการ<br>
+10.00 - 18.30 u. Wn 12.00 - 13.00<br>
+เปิดทุกวันอังคารถึงเสาร์ หยุดวันจันทร์และอาทิตย์</p>
+    </div>
+  </div>
+  <br><br>
 </body>
 </html>
